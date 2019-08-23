@@ -1,0 +1,1 @@
+{"version":3,"file":"handlebars_extensions.js","sourceRoot":"","sources":["handlebars_extensions.ts"],"names":[],"mappings":"AAAA,IAAU,IAAI,CAIb;AAJD,WAAU,IAAI;IACV,UAAU,CAAC,cAAc,CAAC,WAAW,EAAE,UAAU,YAAoB,EAAE,GAAW;QAC9E,OAAO,IAAI,CAAC,GAAG,CAAC,YAAY,CAAC,SAAS,CAAC,YAAY,EAAE,GAAG,CAAC,CAAC;IAC9D,CAAC,CAAC,CAAC;AACP,CAAC,EAJS,IAAI,KAAJ,IAAI,QAIb"}

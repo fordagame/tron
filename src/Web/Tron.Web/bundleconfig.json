@@ -1,0 +1,103 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/dcore.js",
+    "inputFiles": [
+      "wwwroot/framework/libs/DCore/dcore-1.0.0.js",
+      "wwwroot/framework/libs/DCore/dcore-mvp.js",
+      "wwwroot/framework/libs/DCore/dcore-routing.js",
+      "wwwroot/framework/libs/DCore/dcore-services.js",
+      "wwwroot/framework/libs/DCore/ajax.js",
+      "wwwroot/framework/libs/extensions/localization_extension.js",
+      "wwwroot/framework/libs/extensions/templates_extensions.js",
+      "wwwroot/framework/libs/extensions/mvp_extensions.js",
+      "wwwroot/framework/libs/extensions/dependency_loader_extension.js",
+      "wwwroot/framework/libs/extensions/WebSockets.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/lib/frameworks.js",
+    "inputFiles": [
+      "wwwroot/framework/libs/handlebars/handlebars-v4.0.5.js",
+      "wwwroot/lib/dcore.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/services.js",
+    "inputFiles": [
+      "wwwroot/scripts/services/BaseService.js",
+      "wwwroot/scripts/services/utils/WebSocketService.js",
+      "wwwroot/scripts/services/UsersService.js",
+      "wwwroot/scripts/services/GameService.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/modules.js",
+    "inputFiles": [
+      "wwwroot/scripts/modules/BaseModule.js",
+      "wwwroot/scripts/modules/GamesModule.js",
+      "wwwroot/scripts/modules/Tron/TronModule.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/presenters.js",
+    "inputFiles": [
+      "wwwroot/scripts/presenters/GamesPresenter.js",
+      "wwwroot/scripts/presenters/Tron/TronPresenter.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/views.js",
+    "inputFiles": [
+      "wwwroot/scripts/views/GamesView.js",
+      "wwwroot/scripts/views/Tron/TronView.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/models.js",
+    "inputFiles": [
+      "wwwroot/scripts/models/List.js",
+      "wwwroot/scripts/models/User.js",
+      "wwwroot/scripts/models/GameOptions.js",
+      "wwwroot/scripts/models/WebSocketMessage.js",
+      "wwwroot/scripts/models/Tron/TronCoordinate.js",
+      "wwwroot/scripts/models/Tron/TronPlayer.js",
+      "wwwroot/scripts/models/Tron/TronPlayerUpdate.js",
+      "wwwroot/scripts/models/Tron/TronGameUpdate.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/templates/templatesbundle.js",
+    "inputFiles": [
+      "wwwroot/templates/Modules/GamesModule.js",
+      "wwwroot/templates/Modules/Tron/TronModule.js",
+      "wwwroot/templates/Pages/GamesPage.js",
+      "wwwroot/templates/Pages/Tron/TronPage.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/styles/bundle.css",
+    "inputFiles": [
+      "wwwroot/styles/Site.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/applicationbundle.js",
+    "inputFiles": [
+      "wwwroot/scripts/application/extensions/resource_loader.js",
+      "wwwroot/scripts/application/extensions/dependency_resolver.js",
+      "wwwroot/scripts/application/extensions/handlebars_extensions.js",
+      "wwwroot/scripts/services/utils/CookieService.js",
+      "wwwroot/scripts/services/utils/DependencyService.js",
+      "wwwroot/scripts/application/constants.js",
+      "wwwroot/scripts/application/app.js",
+      "wwwroot/scripts/application/configurations/modules_config.js",
+      "wwwroot/scripts/application/configurations/services_config.js",
+      "wwwroot/scripts/application/configurations/pages_config.js",
+      "wwwroot/scripts/services.js",
+      "wwwroot/scripts/modules.js",
+      "wwwroot/scripts/views.js",
+      "wwwroot/scripts/presenters.js",
+      "wwwroot/scripts/models.js"
+    ]
+  }
+]

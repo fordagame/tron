@@ -1,0 +1,10 @@
+.tron_game {
+    width: 1200px;
+    height: 600px;
+    background: rgb(0,2,39);
+    border: rgb(102,147,149) 5px solid;
+}
+
+button{
+    cursor: pointer;
+}

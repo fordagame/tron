@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.GameEngine.Interfaces\\Tron.GameEngine.Interfaces.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Core.Interfaces\\Tron.Core.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Core.Interfaces\\Tron.Core.Interfaces.csproj",
+        "projectName": "Tron.Core.Interfaces",
+        "projectPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Core.Interfaces\\Tron.Core.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Stanislav Atanasov\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Core.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stanislav Atanasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "F:\\Projects\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj": {
+                "projectPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj",
+        "projectName": "Tron.Entities",
+        "projectPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj",
+        "packagesPath": "C:\\Users\\Stanislav Atanasov\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stanislav Atanasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "F:\\Projects\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.GameEngine.Interfaces\\Tron.GameEngine.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.GameEngine.Interfaces\\Tron.GameEngine.Interfaces.csproj",
+        "projectName": "Tron.GameEngine.Interfaces",
+        "projectPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.GameEngine.Interfaces\\Tron.GameEngine.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Stanislav Atanasov\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.GameEngine.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stanislav Atanasov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "F:\\Projects\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Core.Interfaces\\Tron.Core.Interfaces.csproj": {
+                "projectPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Core.Interfaces\\Tron.Core.Interfaces.csproj"
+              },
+              "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj": {
+                "projectPath": "F:\\Projects\\TronGit\\tron\\src\\Core\\Tron.Entities\\Tron.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

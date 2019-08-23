@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        version = @BasePage.JsVersion
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tron</title>
+    <link href="/styles/bundle.min.css?version=@BasePage.CssVersion" rel="stylesheet" />
+    <script src="/lib/frameworks.js?version=@BasePage.JsVersion" type="text/javascript"></script>
+    <script src="/Templates/templatesbundle.min.js?version=@BasePage.JsVersion" type="text/javascript"></script>
+    <script src="/scripts/applicationbundle.js?version=@BasePage.JsVersion" type="text/javascript"></script>
+</head>
+<body>
+    <div id="body-content">
+        @RenderBody()
+    </div>
+</body>
+</html>

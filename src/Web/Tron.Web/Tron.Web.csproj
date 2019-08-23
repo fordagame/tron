@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\scripts\application\app.ts" />
+    <Content Remove="wwwroot\scripts\application\configurations\modules_config.ts" />
+    <Content Remove="wwwroot\scripts\application\configurations\pages_config.ts" />
+    <Content Remove="wwwroot\scripts\application\configurations\services_config.ts" />
+    <Content Remove="wwwroot\scripts\application\Constants.ts" />
+    <Content Remove="wwwroot\scripts\application\extensions\dependency_resolver.ts" />
+    <Content Remove="wwwroot\scripts\application\extensions\handlebars_extensions.ts" />
+    <Content Remove="wwwroot\scripts\application\extensions\resource_loader.ts" />
+    <Content Remove="wwwroot\scripts\models\GameOptions.ts" />
+    <Content Remove="wwwroot\scripts\models\List.ts" />
+    <Content Remove="wwwroot\scripts\models\Tron\TronCoordinate.ts" />
+    <Content Remove="wwwroot\scripts\models\Tron\TronGameUpdate.ts" />
+    <Content Remove="wwwroot\scripts\models\Tron\TronPlayer.ts" />
+    <Content Remove="wwwroot\scripts\models\Tron\TronPlayerUpdate.ts" />
+    <Content Remove="wwwroot\scripts\models\User.ts" />
+    <Content Remove="wwwroot\scripts\models\WebSocketMessage.ts" />
+    <Content Remove="wwwroot\scripts\modules\BaseModule.ts" />
+    <Content Remove="wwwroot\scripts\modules\GamesModule.ts" />
+    <Content Remove="wwwroot\scripts\modules\Tron\TronModule.ts" />
+    <Content Remove="wwwroot\scripts\presenters.js" />
+    <Content Remove="wwwroot\scripts\presenters\GamesPresenter.ts" />
+    <Content Remove="wwwroot\scripts\presenters\Tron\TronPresenter.ts" />
+    <Content Remove="wwwroot\scripts\services\BaseService.ts" />
+    <Content Remove="wwwroot\scripts\services\GameService.ts" />
+    <Content Remove="wwwroot\scripts\services\UsersService.ts" />
+    <Content Remove="wwwroot\scripts\services\utils\CookieService.ts" />
+    <Content Remove="wwwroot\scripts\services\utils\DependencyService.ts" />
+    <Content Remove="wwwroot\scripts\services\utils\WebSocketService.ts" />
+    <Content Remove="wwwroot\scripts\views\GamesView.ts" />
+    <Content Remove="wwwroot\scripts\views\Tron\TronView.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\scripts\presenters.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\framework\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\scripts\presenters.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="3.6.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Tron.Core.Interfaces\Tron.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Core\Tron.Core\Tron.Core.csproj" />
+    <ProjectReference Include="..\..\Core\Tron.Entities\Tron.Entities.csproj" />
+    <ProjectReference Include="..\..\Core\Tron.GameEngine.Interfaces\Tron.GameEngine.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Core\Tron.GameEngine\Tron.GameEngine.csproj" />
+  </ItemGroup>
+</Project>

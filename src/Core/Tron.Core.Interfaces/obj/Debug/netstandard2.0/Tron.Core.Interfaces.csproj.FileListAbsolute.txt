@@ -1,0 +1,12 @@
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\bin\Debug\netstandard2.0\Tron.Core.Interfaces.deps.json
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\bin\Debug\netstandard2.0\Tron.Core.Interfaces.dll
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\bin\Debug\netstandard2.0\Tron.Core.Interfaces.pdb
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\bin\Debug\netstandard2.0\Tron.Entities.dll
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\bin\Debug\netstandard2.0\Tron.Entities.pdb
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.csprojAssemblyReference.cache
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.csproj.CoreCompileInputs.cache
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.AssemblyInfoInputs.cache
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.AssemblyInfo.cs
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.csproj.CopyComplete
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.dll
+F:\Projects\Tron\Tron\src\Core\Tron.Core.Interfaces\obj\Debug\netstandard2.0\Tron.Core.Interfaces.pdb

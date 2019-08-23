@@ -1,0 +1,1 @@
+var Tron;(function(Tron){if(!Tron.Resources){Tron.Resources=[];}Tron.Resources['games']=[];Tron.Resources['games']['CreateNewTronGame']='Създай нова игра на трон';Tron.Resources['games']['NumberOfPlayers']='Брой играчи';})(Tron||(Tron={}));

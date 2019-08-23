@@ -1,0 +1,26 @@
+﻿@model Tron.Entities.User
+@{
+    Layout = null;
+}
+<div>
+    <h1>@ViewData["Welcome"]</h1>
+    <div class="main_content">
+        @using (@Html.BeginForm("LogIn", "Account", FormMethod.Post, new { }))
+        {
+            @Html.AntiForgeryToken()
+            <div class="w3-row">
+                <label class="w3-label">
+                    @ViewData["InsertYourName"]
+                </label>
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Name)
+                </div>
+            </div>
+            <div class="w3-row w3-margin-top">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="@ViewData["LogIn"]" class="w3-btn main_element_color" />
+                </div>
+            </div>
+        }
+    </div>
+</div>

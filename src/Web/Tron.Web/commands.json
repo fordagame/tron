@@ -1,0 +1,15 @@
+{
+  "commands": {
+    "handlebars": {
+      "fileName": "cmd.exe",
+      "workingDirectory": ".",
+      "arguments": "/c handlebar.exe F:\\Projects\\Tron\\Tron\\src\\web\\Tron.Web\\wwwroot\\templates F:\\Projects\\HandlebarsPrecompiler\\handlebars.cmd"
+    },
+    "ResourceCompiler": {
+      "fileName": "cmd.exe",
+      "workingDirectory": ".",
+      "arguments": "/c ResourceCompiler.exe F:\\Projects\\Tron\\Tron\\src\\web\\Tron.Web\\Resources Tron F:\\Projects\\Tron\\Tron\\src\\web\\Tron.Web\\wwwroot\\localization"
+    }
+  },
+  "-vs-binding":{"BeforeBuild":["handlebars"]}
+}
